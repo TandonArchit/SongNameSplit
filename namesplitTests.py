@@ -26,4 +26,16 @@ def test(dic1, dic2):
 
 
 #####################################################################
-    
+#####################################################################
+
+def runTests():
+
+    count = 0
+    totaltests = 1
+
+    if test(namesplit(""), {'artist': '', 'songname': ''}): count += 1
+
+    print("Correct: ", count)
+    print("Fails: ", totaltests - count)
+
+runTests()
