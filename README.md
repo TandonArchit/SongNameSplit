@@ -1,11 +1,11 @@
 ## SongNameSplit
-The SongNameSplit library can take a song title and identify the song name and artist name. The input taken is a string, and a dictionary gives the output. This library needs to access some web pages while running, which means that the final output time is directly dependent on your internet speed.
+The SongNameSplit library can take a song title and identify the song name and artist name. The input taken is a string, and a dictionary gives the output. 
 
-### PyPi
+Approximate accuracy: 97% - 99%
 
-Link: https://pypi.org/project/SongNameSplit/
+This library needs to access some web pages while running, which means that the final output time is directly dependent on your internet speed. However, the BLAZE update, that is on all versions after 2.0.0, will greatly improve speeds.
 
-### Sample Input and Output
+### Example Inputs and Outputs
 
 Input 1:
 ```
@@ -45,8 +45,7 @@ SongNameSplit.namesplit("<< SONG TITLE >>")
 Replace the "<< SONG TITLE >>" with your song title.
 
 ### Sample Code
-
-
+Feel free to copy the following code to test SongNameSplit out!
 ```
 import SongNameSplit
 
@@ -55,7 +54,22 @@ result = SongNameSplit.namesplit("Coldplay - Hymn For The Weekend (Official Vide
 print("The name of the song is: ", result['songname'])
 print("The name of the artist is: ", result['artist'])
 ```
+### NonStandardSongTitle Error
+If you recieve the following error, it means that the title that you provided to SongNameSplit does not look like or is not formatted like how titles usually are formatted. 
+```
+NonStandardSongTitle: This title does not look like a standard title
+```
+### InternetConnectionError Error
+If you recieve the following error, it means that your internet connection is either unstable or dropped while the function was running. Since SongNameSplit has componenets that need to access the internet, it is recommended to use a stable internet connection.
+```
+InternetConnectionError: Please make sure you have a stable internet connection
+```
 ****
-### Made by
+### Additional Details
+
+**GitHub Link**
+https://github.com/TandonArchit/SongNameSplit
+
+**Made by**
 Archit Tandon.
 ****
