@@ -672,6 +672,6 @@ def runTests():
     print("Time taken (in seconds): ", endTime - startTime)
 
    
-## 96.8% Accurate (In my test on version 2.1.2)
+## 98.4% Accurate (Test on version 2.2.1)
 
 runTests()
