@@ -67,8 +67,8 @@ InternetConnectionError: Please make sure you have a stable internet connection
 ****
 ### Additional Details
 
-**GitHub Link**
-https://github.com/TandonArchit/SongNameSplit
+**PyPI Link**
+https://pypi.org/project/SongNameSplit/
 
 **Made by**
 Archit Tandon.
