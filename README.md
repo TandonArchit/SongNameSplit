@@ -1,5 +1,5 @@
 
-## SongNameSplit
+## SongNameSplit 2.2.4
 
 The SongNameSplit library can take a song title and identify the song name and artist name. The input taken is a string, and a dictionary gives the output. 
 
