@@ -1,14 +1,3 @@
-Metadata-Version: 2.1
-Name: SongNameSplit
-Version: 2.2.4
-Summary: Seperate the song and artist name from a song title
-Author: Archit Tandon
-Author-email: archittandon26@gmail.com
-License: UNKNOWN
-Keywords: python,song,song name,artist,artist name
-Platform: UNKNOWN
-Description-Content-Type: text/markdown
-
 
 ## SongNameSplit
 
